@@ -1,0 +1,23 @@
+# slalom: Alternating bars force an S-shaped route: tests repeated left/right 90s.
+# Copy to myapps/course.txt on the SD card to run it.
+start 0.305 1.525
+goal  4.575 1.525
+heading 0
+obstacle 1.22 0.305
+obstacle 1.22 0.61
+obstacle 1.22 0.915
+obstacle 1.22 1.22
+obstacle 1.22 1.525
+obstacle 1.22 1.83
+obstacle 2.44 1.22
+obstacle 2.44 1.525
+obstacle 2.44 1.83
+obstacle 2.44 2.135
+obstacle 2.44 2.44
+obstacle 2.44 2.745
+obstacle 3.66 0.305
+obstacle 3.66 0.61
+obstacle 3.66 0.915
+obstacle 3.66 1.22
+obstacle 3.66 1.525
+obstacle 3.66 1.83

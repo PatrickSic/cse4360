@@ -1,0 +1,19 @@
+# example.txt - Hand-out example course (figure in the PDF).
+# Copy to the SD card as myapps/course.txt to run it (no rebuild).
+# Metres, hand-out frame: origin bottom-left, X along the 16-tile side.
+start 0.305 1.219
+goal  3.658 1.829
+heading 0
+obstacle 0.61 2.745
+obstacle 0.915 2.745
+obstacle 1.22 2.745
+obstacle 1.83 1.22
+obstacle 1.83 1.525
+obstacle 1.83 1.83
+obstacle 1.83 2.135
+obstacle 2.745 0.305
+obstacle 2.745 0.61
+obstacle 2.745 0.915
+obstacle 2.745 2.745
+obstacle 3.05 2.745
+obstacle 3.355 2.745

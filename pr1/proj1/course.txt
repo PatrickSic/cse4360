@@ -1,0 +1,20 @@
+# !!!!!!  overrides the compiled-in course.h when present in myapps/  !!!!!!!
+# Coordinates in metres, same frame as the hand-out (origin is along the bottom left, X is along the 16-tile side).  
+# delete or rename this file to use course.h.
+# HAND OUT EXAMPLE COURSE
+start 0.305 1.219
+goal  3.658 1.829
+heading 0               # robot placed facing +X
+obstacle 0.61  2.743
+obstacle 0.915 2.743
+obstacle 1.219 2.743
+obstacle 1.829 1.219
+obstacle 1.829 1.524
+obstacle 1.829 1.829
+obstacle 1.829 2.134
+obstacle 2.743 0.305
+obstacle 2.743 0.61
+obstacle 2.743 0.915
+obstacle 2.743 2.743
+obstacle 3.048 2.743
+obstacle 3.353 2.743

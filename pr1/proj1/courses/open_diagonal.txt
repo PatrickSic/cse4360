@@ -1,0 +1,5 @@
+# open_diagonal: No obstacles, goal diagonally across. BEST = 1 turn, ZIGZAG = staircase of ~20 turns.
+# Copy to myapps/course.txt on the SD card to run it.
+start 0.61 0.61
+goal  3.965 2.44
+heading 0

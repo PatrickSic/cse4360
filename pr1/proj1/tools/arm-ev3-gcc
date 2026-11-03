@@ -1,0 +1,6 @@
+#!/bin/sh
+# Cross C compiler for the stock LEGO EV3 (ARM926EJ-S, Linux 2.6.33) using
+# the Zig toolchain's bundled clang + musl libc.  Install with:
+#     pip install ziglang          (or: pip3 install --user ziglang)
+# musl has no "kernel too old" check, unlike modern glibc toolchains.
+exec python3 -m ziglang cc -target arm-linux-musleabi -mcpu=arm926ej_s "$@"
