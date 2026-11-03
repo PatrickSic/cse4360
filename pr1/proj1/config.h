@@ -11,7 +11,7 @@
 
 /*robot geometry*/
 /*If the robot wheels are ever changed, this needs to be changed as well (alongside wheel diameter)*/
-#define ROBOT_RADIUS_M    0.14
+#define ROBOT_RADIUS_M    0.18
 
 /* padding for when the robot is deciding if a grid is drivable */
 #define SAFETY_MARGIN_M   0.04
@@ -49,8 +49,8 @@
 #define TURN_KP           0.6   /* turn speed per degree of remaining error */
 #define TURN_KI           0.0   /* this value is usually zero*/
 #define TURN_KD           0.0  
-#define TURN_TOL_DEG      1.0   /* accept heading only when within this margin of degrees*/
-#define TURN_LAG_S        0.10  /* seconds of gyro lag compensated*/
+#define TURN_TOL_DEG      2.0   /* accept heading only when within this margin of degrees*/
+#define TURN_LAG_S        0.05  /* seconds of gyro lag compensated*/
 #define TURN_SETTLE_MS    250
 #define TURN_MAX_RETRIES  4
 
